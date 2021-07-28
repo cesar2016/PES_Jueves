@@ -33,7 +33,7 @@ Route::get('/proof', function () {
 Route::get('/newTorneo','App\Http\Controllers\TorneoController@index')->name('newTorneo')->middleware('auth');
 Route::post('/endTorneo','App\Http\Controllers\TorneoController@update')->name('end')->middleware('auth');
 Route::get('/editNameTorneo/{id}/','App\Http\Controllers\TorneoController@edit')->name('editNameTorneo')->middleware('auth');
-Route::put('/updateNameTorneo/{torneo}','App\Http\Controllers\TorneoController@updateNameTorneo')->middleware('auth');
+Route::put('/updateNameTorneo/{torneo}','App\Http\Controllers\TorneoController@updateNameTorneo')->name('updateNameTorneo')->middleware('auth');
 
 
 // # Tabla General 
@@ -51,7 +51,7 @@ Route::put('/updateResult/{idl}/{idv}','App\Http\Controllers\ResultController@up
 // # Rutas Asociadas al CRUD de Torneos 
 //Route::get('/newTorneo','App\Http\Controllers\TorneoController@index')->middleware('auth');
 Route::post('/newTorneo', 'App\Http\Controllers\TorneoController@store')->name('insertTorneo')->middleware('auth'); //Form Registro
-Route::get('/newTorneo/{specialty}/edit', 'App\Http\Controllers\TorneoController@edit')->middleware('auth');
+Route::get('/editNameTorneo/{specialty}/edit', 'App\Http\Controllers\TorneoController@edit')->middleware('auth');
 Route::get('/allTorneos', 'App\Http\Controllers\TorneoController@allTorneos')->name('allTorneos')->middleware('auth'); 
 
 /* Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {  return view('myView/dashboard');
