@@ -38,8 +38,7 @@
 
 </style> 
 
-    <div class="container">   
-       {{--  @if ($allTorneos ?? '') --}}
+    <div class="container"> 
         <div class="raw mb-5 btn-group">
             
                  <a href="{{ route('dashboard') }}" type="button" class="btn btn-outline-danger">
@@ -53,15 +52,8 @@
                 </a>           
              
         </div> 
-        {{-- @else 
-        <div class="raw mb-5 btn-group">
-            <div class=" alert alert-danger">Bienvenidos inauguremos esta App!</div>--}}
-        </div>
-
+ 
         @yield('content') 
-
-       
-{{-- @endif  --}}
     </div>
     
     <!-- JavaScript Bundle with Popper -->
