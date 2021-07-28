@@ -55,7 +55,7 @@
         </div> 
         {{-- @else 
         <div class="raw mb-5 btn-group">
-            <div class=" --}}alert alert-danger">Bienvenidos inauguremos esta App!</div>
+            <div class=" alert alert-danger">Bienvenidos inauguremos esta App!</div>--}}
         </div>
 
         @yield('content') 
