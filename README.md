@@ -11,7 +11,7 @@
 
 ## PES_Jueves 
 
-Aplicacion para llevar control de los torneos jugados con el famoso juego de PlayStation Pre Evolution Scoccer, torneo de tipo todos contra todos ida y vuelta solo para tre jugadores.
+Aplicacion para llevar control de los torneos jugados con el famoso juego de PlayStation Pre Evolution Scoccer, torneo de tipo todos contra todos ida y vuelta solo para tre jugadores. Historial de partidos y torneos, con busquedas por datatablet
 
 - Creado en Laravel 8.
 - Practicas de CRUD, consultas con eloquent, Ruteos a controllers y vitas .
