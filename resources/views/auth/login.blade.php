@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+            <img src="https://2.bp.blogspot.com/-jwsuY2umj5Y/WdLRtQV1GWI/AAAAAAABPhA/iJHatjC3ZywmhxQ5hKhvKAVXHqhAJXo3ACLcBGAs/s1600/Pro%2BEvolution%2BSoccer.png" width="80px" ;="" height="80px">
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />
