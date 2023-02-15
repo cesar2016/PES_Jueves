@@ -23,5 +23,5 @@ Aplicacion para llevar control de los torneos jugados con el famoso juego de Pla
 
 ## cesars.pro@gmail.com
 ## Linkedin: https://www.linkedin.com/in/cesar-sanchez-dev/
-
+## Para ver y descargar mi CV: <a href="https://shorten.world/qxnxs"> Clic Aca ...</a>
 
